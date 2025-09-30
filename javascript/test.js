@@ -6,10 +6,10 @@ if (isNaN(number)) {
     alert("Invalid input");
 } else {
     if (number === 0) {
-        alert("zero");
+        alert("zero integer number");
     } else if (number % 2 === 0) {
-        alert("even number");
+        alert("even integer number");
     } else {
-        alert("odd number");
+        alert("odd integer number");
     }
 }
